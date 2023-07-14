@@ -1,3 +1,15 @@
+LTCGI Support.
+
+Sets color of the ltcgi gi and emission of it's according mesh renderer.
+Currently a very basic integration.
+If you want to control An emissive mesh and it's ltcgi emission make sure to have both on the same gameobject.
+I recommend having the basecolor of your material set to black.
+
+Assign your ltcgi controller to "Ltcgi"
+Assign your GameObject that has the ltcgi Emitter Script and the meshrenderer to "My Screen"
+
+
+
 # Color Picker for VRChat Worlds
 
 This is a generic color picker component for use in VRChat SDK3 worlds. This color picker consists only 1 orb shaped handle and is able to pick all available display colors. The design is optimized for VR usage though, PC users should not very hard to use. This color picker is designed to integrate with other UDON gimmicks, you can easily to get/set the color the user picks with via UDON programs, or even get callbacks when user updates the color.
